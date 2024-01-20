@@ -1,0 +1,7 @@
+s="You are the son and i am the moon so we will nerver be together"
+st=set(s)
+count={}
+
+for i in st:
+    count[i]=s.count(i)
+count
